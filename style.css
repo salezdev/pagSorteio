@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Lato&family=Montserrat:wght@500&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: 'Karla', sans-serif;
+}
+
+
+
+#number{
+    font-size: 5rem;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+button{
+    font-size: 20px;
+    width: 100px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 400%);
+    background-color: #fff;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+
+button:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+
+.high h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 300px;
+}
